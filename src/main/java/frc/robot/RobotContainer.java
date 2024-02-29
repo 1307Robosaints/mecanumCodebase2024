@@ -123,7 +123,7 @@ joystickButton3.whileTrue(new IntakeFlipUp(m_intake).withInterruptBehavior(Inter
 final JoystickButton joystickButton5 = new JoystickButton(joystick1, 5);        
 joystickButton5.whileTrue(new IntakeFlipDown(m_intake).withInterruptBehavior(InterruptionBehavior.kCancelSelf));
 
-final JoystickButton joystickButton1 = new JoystickButton(joystick1, 1);        
+final JoystickButton joystickButton1 = new JoystickButton(joystick1, 1);        //just change buttonNumber param if you dont like my amazing totally not flawed at all button bindings :P - soupy
 joystickButton1.whileTrue(new ShootCD(m_shooter).withInterruptBehavior(InterruptionBehavior.kCancelSelf));
 
 
