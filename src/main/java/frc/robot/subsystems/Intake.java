@@ -70,16 +70,16 @@ private CANSparkMax intakeFlip;
 
     }
     public void eatCD() {
-        intakeWheels.set(1);
+        intakeWheels.set(.5);
     }
     public void spitCD() {
         intakeWheels.set(-1);
     }
         public void flipCDBack() {
-        intakeFlip.set(-0.05);
+        intakeFlip.set(-0.45);
     }
             public void flipCDForward() {
-        intakeFlip.set(.05);
+        intakeFlip.set(.45);
     }
         public void eatCDOff() {
         intakeWheels.set(0);

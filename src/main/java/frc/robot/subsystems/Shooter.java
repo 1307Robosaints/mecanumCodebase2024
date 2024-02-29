@@ -56,7 +56,7 @@ private CANSparkMax shooterWheelsFollow;
     @Override
     public void periodic() {
         // This method will be called once per scheduler run
-
+ 
     }
 
     @Override
@@ -69,11 +69,12 @@ private CANSparkMax shooterWheelsFollow;
 
     }
     public void shootCD() {
-        shooterWheels.set(-2);
-        shooterWheelsFollow.set(.2);
+        shooterWheels.set(-1);
+        shooterWheelsFollow.set(1);
     } 
         public void stopMotors() {
         shooterWheels.set(0);
+        shooterWheelsFollow.set(0);
     }
 
 
